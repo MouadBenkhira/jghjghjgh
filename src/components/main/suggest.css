@@ -1,0 +1,88 @@
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 3rem; 
+    margin-top: 6rem;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 1.5rem; /* You can adjust this value */
+  }
+  
+  /* Styles for the NavLink items */
+  .navlink-item {
+    background-color: #d1c5c5; /* Example color, you can adjust */
+    border-radius: 0.5rem; /* Adjust as needed */
+    padding: 1rem;
+    transition: all 0.3s ease;
+    position: relative; /* Ensure proper positioning for the button */
+  }
+  
+  .navlink-item:hover {
+    background-color: #555; /* Example hover color, adjust as needed */
+  }
+  
+  /* Styles for the image container */
+  .image-container {
+    position: relative;
+    width: 100%;
+    height: 200px; /* Adjust this value to your desired height */
+    overflow: hidden; /* Ensure image does not overflow its container */
+  }
+  
+  /* Styles for the image */
+  .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+        border-radius: 50%; /* Adjust as needed */
+
+  }
+  
+  /* Styles for the play button */
+  .play-button {
+    width: 3rem; /* Adjust as needed */
+    height: 3rem; /* Adjust as needed */
+    background-color: #3fff8f; /* Example color, adjust as needed */
+    position: absolute;
+    right: 1rem; /* Adjust as needed */
+    bottom: 1rem; /* Adjust as needed */
+    transition: opacity 0.3s ease;
+    border-radius: 50%; /* Adjust as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+  }
+  
+  .play-button:hover,
+  .play-button:active {
+    opacity: 1;
+  }
+  
+  /* Styles for the text */
+  .text {
+    font-weight: bold;
+    color: #fff; /* Example color, adjust as needed */
+    font-size: 1rem; /* Adjust as needed */
+    white-space: nowrap;
+  }
+  
+  .position {
+    margin-top: 0.5rem;
+    font-size: 0.875rem; /* Adjust as needed */
+    color: #007bff; /* Example color, adjust as needed */
+  }
+  
+  h1 {
+    margin-top: -50px;
+    font-size: 1.875rem; /* 30px */
+    line-height: 2.25rem; /* 36px */
+    color: rgb(255, 255, 255);
+    text-align: center;
+    align-self: center;
+  }
+  

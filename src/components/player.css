@@ -1,0 +1,33 @@
+.player-container {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  border-top: 1px solid #444;
+  margin-top: 50px;
+  margin-bottom: -30px;
+  margin-left: -25px;
+  margin-right: -24px;
+}
+
+.player-container h4 {
+  margin: 0;
+}
+
+.progress-bar-custom {
+  cursor: pointer;
+  background-color: #007bff; /* Change progress bar color as needed */
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  font-size: 1.5rem;
+  margin: 0 10px;
+}
+
+button:hover {
+  color: #ddd;
+}

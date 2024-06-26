@@ -1,0 +1,79 @@
+/* Styles for the container with flex layout */
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 1rem; /* You can adjust these values */
+  margin-top: 6rem;
+}
+
+/* Styles for the grid */
+.grid-container1 {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 1.5rem; /* You can adjust this value */
+  margin-bottom: 3rem;
+}
+
+/* Placeholder styles for PlayBox or other elements */
+.play-box {
+}
+
+/* Styles for the NavLink items */
+.navlink-item {
+  background-color: #111111; /* Example color, you can adjust */
+  border-radius: 0.5rem; /* Adjust as needed */
+  padding: 1rem;
+  transition: all 0.3s ease;
+  display: flex; /* Ensure each item is a flex container */
+  flex-direction: column; /* Stack the image and text vertically */
+  align-items: center; /* Center items horizontally */
+  text-align: center; /* Center text horizontally */
+}
+
+.navlink-item:hover {
+  background-color: #555; /* Example hover color, adjust as needed */
+}
+
+.image-container {
+    position: relative; /* Ensure proper positioning for the button */
+    width: 100%;
+    height: 200px; /* Adjust this value to your desired height */
+  }
+  
+  .image1 {
+    width: 100%; /* Ensure image fills the container */
+    height: 100%; /* Ensure image fills the container */
+    object-fit: cover;
+  }
+  
+
+/* Styles for the play button */
+.play-button {
+  width: 3rem; /* Adjust as needed */
+  height: 3rem; /* Adjust as needed */
+  background-color: #57a75b; /* Example color, adjust as needed */
+  transition: opacity 0.3s ease;
+  border-radius: 50%; /* Adjust as needed */
+  opacity: 0;
+  margin-top: 1rem; /* Add some space between the image and button */
+}
+
+.play-button:hover,
+.play-button:active {
+  opacity: 1;
+}
+
+/* Styles for the text */
+.text {
+  font-weight: bold;
+  color: #fff; /* Example color, adjust as needed */
+  font-size: 1rem; /* Adjust as needed */
+  white-space: nowrap;
+  margin-top: 0.5rem; /* Add some space between the image and text */
+}
+
+.position {
+  font-size: 0.875rem; /* Adjust as needed */
+  color: #007bff; /* Example color, adjust as needed */
+}
